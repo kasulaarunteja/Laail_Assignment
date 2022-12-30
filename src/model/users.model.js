@@ -7,6 +7,7 @@ const userSchema = new mongoose.Schema({
     MobileNumber: { type: String, required: true },
 },{
     versionKey: false,
+    timestamps:true
   }
 )
 
